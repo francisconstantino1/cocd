@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* Top Navbar */
+
+.showcase .navbar-top{
+    width: 100%;
+    display: flex;
+    padding: 0 80px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0A2940;
+    top: 0;
+    left: 0;
+}
+.showcase .left{
+    display: flex;
+    list-style: none;
+}
+.showcase .left li a{
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    color: #95A2BB;
+    padding: 5px 15px;
+    transition: all 0.5s ease;
+}
+.showcase .left li a:hover{
+    color: #55BA53;
+}
+.showcase .left li:first-child{
+    font-weight: 700;
+    border-right: 1px solid #536DAF;
+}
+.showcase .right{
+    display: flex;
+    list-style: none;
+}
+.showcase .right li a{
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #95A2BB;
+    transition: all 0.5s ease;
+}
+.showcase .right li a:hover{
+    color: #55BA53;
+}
+
+/* Bottom Navbar */
+.showcase .navbar-bottom{
+    width: 100%;
+    background: #cfcfcf;
+    padding: 25px 95px;
+    align-items: center;
+    margin:  auto;
+    display: flex;
+    position: fixed; 
+    justify-content: space-between;
+    overflow: hidden;
+}
+.navbar-bottom.sticky{
+    padding: 15px 95px;
+    background: #fff;
+    border-bottom: 1px solid #0A2940;
+    color: #0A2940;
+    top: 0;
+    z-index: 999;
+}
+.showcase .navbar-bottom .brand-left{
+    color: #55BA53;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.showcase .navbar-bottom.sticky .brand-left{
+    color: #0A2940;
+}
+.showcase .navbar-bottom .brand-left:hover{
+    color: #0A2940;
+}
+.showcase .navbar-bottom .menu-right{
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.showcase .navbar-bottom.sticky .menu-right li:last-child{
+    display: none;
+}
+.showcase .navbar-bottom .menu-right a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+    color: #1A1B1E;
+    transition: all 0.5s ease;
+}
+.showcase .navbar-bottom .menu-right a:hover{
+    color: #55BA53;
+}
